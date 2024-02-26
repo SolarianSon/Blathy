@@ -23,13 +23,13 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Label Grid.Row="0" Grid.ColumnSpan="2" Content="Könyv-szerkesztés" HorizontalContentAlignment="Center" Margin="2"/>
-        <Textblock Text="Szerző" Grid.Row="1" Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Textblock Text="Cím" Grid.Row="2" Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Textblock Text="Típus" Grid.Row="3" Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Textblock Text="Megjelenés" Grid.Row="4" Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Textbox Grid.Row="1" Grid.Column="1" x:Name="TB_Author" Margin="2"/>
-        <Textbox Grid.Row="2" Grid.Column="1" x:Name="TB_Title" Margin="2"/>
-        <Textbox Grid.Row="3" Grid.Column="1" x:Name="TB_Type" Margin="2"/>
+        <TextBlock Text="Szerző" Grid.Row="1" Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Cím" Grid.Row="2" Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Típus" Grid.Row="3" Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Megjelenés" Grid.Row="4" Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="TB_Author" Margin="2"/>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="TB_Title" Margin="2"/>
+        <TextBox Grid.Row="3" Grid.Column="1" x:Name="TB_Type" Margin="2"/>
         <DatePicker Grid.Row="4" Grid.Column="1" x:Name="DP_Publish" Margin="2"/>
         <Grid Grid.Row="5" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>

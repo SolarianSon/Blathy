@@ -32,9 +32,15 @@ namespace BookRentalClientWithPage
 
         private void BTN_EditBook_Click(object sender, RoutedEventArgs e)
         {
+            var book = (Book)mainPage.LB_Books.SelectedItem;
             var page = new BookEditorPage();
-            MainFrame.Content = page;
+            page.TB_Author.Text = book.Author;
+            page.TB_Title.Text = book.Title;
+            page.TB_Type.Text = book.Type;
+            page.DP_Publish.SelectedDate = book.Published;
             page.BTN_Cancel.Click += BookEditorPage_BTN_Cancel_Click;
+            page.BTN_Save.Click += BookEditorPage_BTN_Save_New_Click;
+            MainFrame.Content = page;            
         }
         private void BTN_DeleteBook_Click(object sender, RoutedEventArgs e)
         {
@@ -45,6 +51,22 @@ namespace BookRentalClientWithPage
             var page = new BookEditorPage();
             MainFrame.Content = page;
             page.BTN_Cancel.Click += BookEditorPage_BTN_Cancel_Click;
+            page.BTN_Save.Click += BookEditorPage_BTN_Save_New_Click;
+        }
+
+        private void BookEditorPage_BTN_Save_New_Click(object sender, RoutedEventArgs e)
+        {
+            var page = (BookEditorPage)MainFrame.Content;
+            var book = new Book()
+
+            {
+                Author = page.TB_Author.Text,
+                Title = page.TB_Title.Text,
+                Type = page.TB_Type.Text,
+                Published = page.DP_Publish.SelectedDate,
+            };
+            mainPage.LB_Books.Items.Add(book);
+            MainFrame.Content = mainPage;
         }
         private void BookEditorPage_BTN_Cancel_Click(object sender, RoutedEventArgs e)
         {
