@@ -5,16 +5,148 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LabirintusGUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="400">
+        Title="Labirintus készítő" Height="600" Width="400">
     <Canvas>
         <Label Content="Labirintus mérete [sor x oszlop]:" Canvas.Left="10" Canvas.Top="45"/>
-        <ComboBox Name="Cols" Canvas.Left="200" Canvas.Top="45" Width="50"/>
-        <ComboBox Name="Rows" Canvas.Left="270" Canvas.Top="45" Width="50"/>
+        <ComboBox Name="Cols" SelectedValue="12" Canvas.Left="200" Canvas.Top="45" Width="50"/>
+        <ComboBox Name="Rows" SelectedValue="12" Canvas.Left="270" Canvas.Top="45" Width="50"/>
         <Button Content="Induló labirintus létrehozása" Canvas.Left="10" Canvas.Top="80" Click="Button_Click"/>
         <Button Content="Labirintus mentése" Canvas.Left="190" Canvas.Top="80" Click="Button_Click"/>
         <ComboBox Name="Index" Canvas.Left="330" Canvas.Top="80" Width="40"/>
 
-        <UniformGrid Name="Lab" Canvas.Top="120">
+        <UniformGrid Name="Lab" Canvas.Left="20" Canvas.Top="120">
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
+            <CheckBox/>
             <CheckBox/>
             <CheckBox/>
             <CheckBox/>
