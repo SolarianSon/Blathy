@@ -13,9 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPSgyak", "FPSgyak\FPSgyak.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nepesseg", "nepesseg\nepesseg.csproj", "{9199DA43-3354-4296-9FF7-37669DD3850A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labirintus", "Labirintus\Labirintus.csproj", "{D9518B2B-0C10-4B75-9028-D5EDCEAAFA71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labirintus", "Labirintus\Labirintus.csproj", "{D9518B2B-0C10-4B75-9028-D5EDCEAAFA71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabirintusGUI", "LabirintusGUI\LabirintusGUI.csproj", "{C12A04A8-5FAD-47F3-A1A4-EF34197048B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabirintusGUI", "LabirintusGUI\LabirintusGUI.csproj", "{C12A04A8-5FAD-47F3-A1A4-EF34197048B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amoeba", "Amoeba\Amoeba.csproj", "{87C6E3AC-3FC1-4EB6-9F49-DE8BFDA3313C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Amoba", "Amoba", "{AE7D3F7B-B227-4974-9656-1800863CA1A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amoba", "Amoba\Amoba.csproj", "{680E2EE2-AEBC-4588-BB12-F6555A69E77F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmobaGUI", "Amoba\AmobaGUI\AmobaGUI.csproj", "{34800F74-D107-48B4-A322-C4AA01453677}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +59,25 @@ Global
 		{C12A04A8-5FAD-47F3-A1A4-EF34197048B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C12A04A8-5FAD-47F3-A1A4-EF34197048B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C12A04A8-5FAD-47F3-A1A4-EF34197048B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C6E3AC-3FC1-4EB6-9F49-DE8BFDA3313C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C6E3AC-3FC1-4EB6-9F49-DE8BFDA3313C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C6E3AC-3FC1-4EB6-9F49-DE8BFDA3313C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C6E3AC-3FC1-4EB6-9F49-DE8BFDA3313C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680E2EE2-AEBC-4588-BB12-F6555A69E77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680E2EE2-AEBC-4588-BB12-F6555A69E77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680E2EE2-AEBC-4588-BB12-F6555A69E77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680E2EE2-AEBC-4588-BB12-F6555A69E77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34800F74-D107-48B4-A322-C4AA01453677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34800F74-D107-48B4-A322-C4AA01453677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34800F74-D107-48B4-A322-C4AA01453677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34800F74-D107-48B4-A322-C4AA01453677}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{680E2EE2-AEBC-4588-BB12-F6555A69E77F} = {AE7D3F7B-B227-4974-9656-1800863CA1A8}
+		{34800F74-D107-48B4-A322-C4AA01453677} = {AE7D3F7B-B227-4974-9656-1800863CA1A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {49A31D06-12F6-4A01-A394-9C5AD71D380C}
