@@ -22,6 +22,9 @@ namespace AmobaGUI
         public MainWindow()
         {
             InitializeComponent();
+            Player1.Text = "Józsi";
+            Player2.Text = "Karesz";
+            TBoxName.Text = "minta.txt";
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -33,7 +36,9 @@ namespace AmobaGUI
             {
                 for (int colIndex = 0; colIndex < 4; colIndex++)
                 {
-                    var gfield = new TextBox() { Margin = new Thickness(5) };
+                    var gfield = new Button() { Margin = new Thickness(5) };
+                    gfield.FontSize = 16;
+                    gfield.FontWeight = FontWeights.Bold;
                     GameField.Children.Add(gfield);
                     Grid.SetColumn(gfield, colIndex);
                     Grid.SetRow(gfield, rowIndex);
